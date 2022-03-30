@@ -3,7 +3,7 @@
 package-lock.json
 
 # testing
-/coverage
+**/coverage
 
 # production
 /build
