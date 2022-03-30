@@ -14,3 +14,7 @@ npm install
 ```
 npm start / npm nodemon
 ```
+### run test
+```
+npm start / npm nodemon
+```
