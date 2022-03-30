@@ -2,6 +2,10 @@ const { Router } = require('express');
 const router = Router();
 const axios = require('axios')
 
+/**
+ * weather forecast information
+ * and filter only ‘apparent_t’ that is greater than 20 and sort it in ascending order.
+ */
 router.get('/', async (req,res) => {
     const response = await axios.get('http://www.bom.gov.au/fwo/IDN60801/IDN60801.95765.json');
     const { status, data } = response;

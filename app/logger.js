@@ -1,7 +1,6 @@
 const winston = require('winston');
 const expressWinston = require('express-winston');
 
-//more options here - https://github.com/bithavoc/express-winston#request-logging
 const logger = expressWinston.logger({
   transports: [
     new winston.transports.Console()
