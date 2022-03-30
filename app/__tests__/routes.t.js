@@ -7,6 +7,7 @@ app.use('/', router)
 
 describe('route test', function(){
     const targetAttr = ["name", "apparent_t", "lat", "long"]
+
     test('response to/', async () => {
         const res = await request(app).get('/');
         expect(res.header['content-type']).toBe('application/json; charset=utf-8');
