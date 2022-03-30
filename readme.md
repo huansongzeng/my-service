@@ -12,9 +12,9 @@ npm install
 ```
 ### start app
 ```
-npm start / npm nodemon
+npm start / npm run nodemon
 ```
 ### run test
 ```
-npm start / npm nodemon
+npm run test
 ```
